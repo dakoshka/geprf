@@ -1,0 +1,171 @@
+.banner-img {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    height: 70vh;
+    /*margin-top: 80px;*/
+
+}
+
+.banner-img:after {
+    content: "";
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    /*background: linear-gradient(to bottom, rgba(25, 25, 27, 0.30) 100%, rgba(0, 0, 0, 0.31) 100%);
+    transition: opacity .3s;*/
+    background-color: #011627;
+    opacity: 0.4;
+    
+}
+
+.banner-txt {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: white;
+    z-index: 1;
+    transform: translate(50%, -50%);
+    width: 100%;
+}
+
+.banner-txt h3 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.logo {
+    width: 50%;
+}
+
+.nav-txt {
+    font-size: 20px;
+    color:#ffffff;
+
+}
+
+#wesebi {
+    padding-bottom: 50px;
+}
+
+.wesebi-txt {
+    margin-top: 120px;
+    text-transform: uppercase;
+    color: #5a524d;
+}
+
+.wesebi-txt h2 {
+    color: #5a5a5a;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 25px;
+}
+
+.isotope-img {
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 100%;
+    background-position: top center;
+    border: solid 2px gray;
+    border-radius: 2%;
+}
+
+.isotope-img:hover {
+    -webkit-filter: opacity(80%); /* Safari 6.0 - 9.0 */
+    filter: opacity(80%);
+  
+}
+
+.isotope-txt {
+    color: #646363;
+    padding-right: 15px;
+    font-weight: normal;
+    font-size: 18px;
+    background: none;
+}
+
+
+.line {
+    height: 1.8px;
+    width: 100%;
+    background: #e72123;
+    margin-top: 1rem;
+    margin-bottom: 40px;
+    
+}
+
+.soc-icons {
+    font-size: 35px;
+    letter-spacing: 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: #cececec4;
+}
+
+.line1 {
+    height: 0.5px;
+    width: 100%;
+    background: #daac00;
+    margin-top: 1rem;
+}
+
+
+.fa-facebook-f:hover,
+.fa-youtube:hover,
+.fa-users:hover {
+    color: #e72123;
+}
+
+.fa-facebook-f,
+.fa-youtube,
+.fa-users {
+    color: #cececec4;
+}
+
+
+a:hover {
+    text-decoration: none;
+
+}
+
+.nav-txt  {
+    display: inline-block;
+    color: #ebebeb;
+    font-size: 20px;
+
+}
+
+.nav-txt:hover {
+    color: red;
+}
+
+.fixed-top {
+    background: rgba(0,0,0,0.39);
+    box-shadow: 0 1px 2px rgb(0 0 0);
+    line-height: 3;
+}
+
+.about p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+
+.compensate-for-scrollbar {
+    margin-right: 0px!important;
+}
+
+.map iframe {
+    width: 100%;
+}
