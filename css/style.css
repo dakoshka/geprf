@@ -110,12 +110,12 @@ body {
 
 .banner-img {
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    /* background-attachment: fixed; */
+    background-position: top center;
     background-size: cover;
     width: 100%;
     position: relative;
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 20px;
 
 }
@@ -774,14 +774,9 @@ a:hover {
 }
 
 .partner h2 {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     letter-spacing: 5px;
-    font-size: 15px;
-}
-
-.partner {
-    
-    padding-bottom: 22px;
+    font-size: 17px;
 }
 
 
@@ -804,7 +799,7 @@ a:hover {
 
    @media (max-width: 1200px) { 
     .banner-img {
-        height: 700px;
+        height: 500px;
     }
     }
 
