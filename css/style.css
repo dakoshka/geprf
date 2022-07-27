@@ -774,9 +774,14 @@ a:hover {
 }
 
 .partner h2 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     letter-spacing: 5px;
     font-size: 15px;
+}
+
+.partner {
+    
+    padding-bottom: 22px;
 }
 
 
