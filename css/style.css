@@ -318,8 +318,8 @@ a:hover {
 
 .aboutus img {
     width: 400px;
-    margin-right: 30px;
-    margin-bottom: 20px;;
+    /* margin-right: 30px; */
+    /* margin-bottom: 20px; */
 }
 
 .aboutus p{
@@ -696,6 +696,27 @@ a:hover {
         font-size: 15px;;
     }
 
+    .aboutus p{
+        font-size: 15px;
+    }
+    
+    .aboutus img {
+        width: 280px;
+       
+    }
+
+    .partner h2 {
+        font-size: 22px;
+    }
+
+    .apache-img {
+        min-width: 190px;
+    }
+
+    .dazga-img {
+        min-width: 90px;
+    }
+
 }
 
 
@@ -735,12 +756,28 @@ a:hover {
     
 .dazga-img {
     min-width: 40px;
+    
 }
 
 .apache-img {
     min-width: 100px;
+   
 }
 
+.aboutus p{
+    font-size: 12px;
+}
+
+.aboutus img {
+    width: 250px;
+   
+}
+
+.partner h2 {
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
 
 
   }
