@@ -717,6 +717,12 @@ a:hover {
         min-width: 90px;
     }
 
+    .divisions-img {
+       
+        background-attachment: initial;
+      
+    }
+
 }
 
 
