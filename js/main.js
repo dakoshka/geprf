@@ -14,7 +14,7 @@ var $grid = $('.grid').isotope({
     });
   });
 
-  $('button[data-filter=".flyers"]').click();
+  $('button[data-filter=".2022"]').click();
 
 $('[data-fancybox="images"]').fancybox({
   buttons: [
