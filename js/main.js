@@ -141,8 +141,8 @@ $(document).ready(function(){
   {
     breakpoint: 550,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 2,
       infinite: false,
       dots: true,
       arrows: false,
