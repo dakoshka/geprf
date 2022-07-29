@@ -114,7 +114,7 @@ $(document).ready(function(){
       centerPadding: '0',
       dots: true,
       infinite: false,
-      speed: 1000,
+      speed: 700,
       slidesToShow: 3,
       slidesToScroll: 3,
        arrows: false,
