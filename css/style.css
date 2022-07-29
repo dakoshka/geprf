@@ -570,13 +570,13 @@ a:hover {
 
 .slick-prev:before, .slick-next:before {
     font-family: 'slick';
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1;
     opacity: .75;
     color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: bold;
+
 }
 
 .slick-prev, .slick-next {
@@ -591,6 +591,16 @@ a:hover {
 .slick-next {
     right: 0;
 }
+
+.slick-next:before {
+    content: '❯';
+
+}
+
+.slick-prev:before {
+    content: '❮';
+}
+
 
 
 .portfolio-txt h2 {
