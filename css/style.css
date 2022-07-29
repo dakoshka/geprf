@@ -498,7 +498,7 @@ a:hover {
 
 .team-thumb {
     width: 100%;
-    height: 320px;
+    height: 400px;
     margin: 32px 0;
     text-align: center;
     background: #ffffff;
@@ -564,19 +564,8 @@ a:hover {
   }
 
   .img-circle {
-    width: 85%;
+    width: 100%;
     border-radius: 50%;
-    margin: auto;
-}
-
-.team-thumb h2 {
-    font-size: 0.9rem;
-}
-
-
-.team-thumb p {
-    font-size: 13px!important;
-    line-height: 25px;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -858,7 +847,7 @@ a:hover {
         height: 500px;
     }
 
-    /* .team-thumb h2 {
+    .team-thumb h2 {
         
         font-size: 1rem;
         
@@ -866,7 +855,7 @@ a:hover {
     .team-thumb p {
         font-size: 14px!important;
         line-height: 30px;
-    } */
+    }
 
     }
 
