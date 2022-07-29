@@ -724,12 +724,12 @@ a:hover {
     }
 
     .card-body h5 {
-        font-size: 14px;
+        font-size: 13px;
         
     }
 
-    .card-body p, h5 {
-        font-size: 14px;
+    .card-body p {
+        font-size: 13px;
     }
 
 }
@@ -796,10 +796,21 @@ a:hover {
 
 
 .card-body p, h5 {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 
+  }
+
+
+  @media (max-width: 549px) { 
+    .card-body h5 {
+        font-size: 15px;
+    }
+
+    .card-body p {
+        font-size: 15px;
+    }
   }
 
 
