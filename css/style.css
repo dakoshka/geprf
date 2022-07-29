@@ -111,7 +111,7 @@ body {
 .banner-img {
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
     width: 100%;
     position: relative;
