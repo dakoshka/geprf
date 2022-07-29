@@ -821,6 +821,17 @@ a:hover {
     .banner-img {
         height: 500px;
     }
+
+    .team-thumb h2 {
+        
+        font-size: 1rem;
+        
+    }
+    .team-thumb p {
+        font-size: 14px!important;
+        line-height: 30px;
+    }
+
     }
 
 
