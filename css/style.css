@@ -463,17 +463,6 @@ a:hover {
 }
 
 
-.slick-prev:before, .slick-next:before {
-    font-family: 'slick';
-    font-size: 25px;
-    line-height: 1;
-    opacity: .75;
-    color: black;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-
 
 
 .box-slide {
@@ -730,6 +719,29 @@ a:hover {
 
     .card-body p {
         font-size: 13px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 40px;
+        line-height: 1;
+        opacity: .75;
+        color: black;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-weight: bold;
+    }
+    
+    
+    .slick-dots li button {
+        width: 12px;
+        height: 12px;
+      
+    }
+    
+    .slick-track {
+        
+        margin-bottom: 0px;
     }
 
 }

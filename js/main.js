@@ -125,8 +125,8 @@ $(document).ready(function(){
       slidesToShow: 2,
       slidesToScroll: 2,
       infinite: false,
-      dots: false,
-      arrows: true,
+      dots: true,
+      arrows: false,
     }
   },
   {
@@ -134,8 +134,8 @@ $(document).ready(function(){
     settings: {
       slidesToShow: 2,
       slidesToScroll: 2,
-      dots: false,
-      arrows: true,
+      dots: true,
+      arrows: false,
     }
   },
   {
@@ -144,8 +144,8 @@ $(document).ready(function(){
       slidesToShow: 1,
       slidesToScroll: 1,
       infinite: false,
-      dots: false,
-      arrows: true,
+      dots: true,
+      arrows: false,
     }
   }
 ]
