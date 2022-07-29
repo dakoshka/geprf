@@ -568,6 +568,17 @@ a:hover {
     border-radius: 50%;
 }
 
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+}
+
 .slick-prev, .slick-next {
     width: 20px;
     z-index: 55;
@@ -721,16 +732,7 @@ a:hover {
         font-size: 13px;
     }
 
-    .slick-prev:before, .slick-next:before {
-        font-family: 'slick';
-        font-size: 40px;
-        line-height: 1;
-        opacity: .75;
-        color: black;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-weight: bold;
-    }
+  
     
     
     .slick-dots li button {
