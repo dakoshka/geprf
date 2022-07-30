@@ -338,7 +338,7 @@ a:hover {
     color: black;
     font-size: 30px;
     margin-top: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .pdf h3 {
@@ -356,7 +356,10 @@ a:hover {
 }
 
 .pdf-background p {
-    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+
 }
 
 
@@ -778,11 +781,6 @@ a:hover {
 
     .pdf .fa-file-pdf {
         font-size: 50px!important;
-    }
-
-    .pdf-background p {
-        font-size: 14px;
-    line-height: 1.5;
     }
 
     .slick-prev {
