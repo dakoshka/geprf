@@ -593,7 +593,8 @@ a:hover {
 }
 
 .slick-next:before {
-    content: '❭';
+    content: '❯';
+    
 
 }
 
