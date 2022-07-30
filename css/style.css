@@ -336,7 +336,7 @@ a:hover {
 
 .pdf-text h2 {
     color: black;
-    font-size: 30px;
+    font-size: 1.8rem;
     margin-top: 100px;
     text-align: center;
 }
@@ -376,6 +376,7 @@ a:hover {
     margin-top: 100px;
     color: black;
     text-align: left;
+    font-size: 1.8rem;
 }
 
 .news h4 {
@@ -476,11 +477,13 @@ a:hover {
     text-align: left;
     padding-top: 60px;
     color: black;
+    font-size: 1.8rem;
 }
 
 .gallery-txt h2{
     text-align: left;
     color: black;
+    font-size: 1.8rem;
 }
 
 
@@ -608,7 +611,7 @@ a:hover {
 
 
 .portfolio-txt h2 {
-    font-size: 30px;
+    font-size: 1.8rem;
     color: black;
     text-align: center;
     margin-top: 100px;
