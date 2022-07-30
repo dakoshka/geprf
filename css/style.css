@@ -593,7 +593,7 @@ a:hover {
 }
 
 .slick-next:before {
-    content: '❯';
+    content: '❭';
 
 }
 
@@ -753,7 +753,11 @@ a:hover {
     
     .slick-track {
         
-        margin-bottom: 0px;
+        margin-bottom: 20px;
+    }
+
+    .slick-dots li {
+        margin: 0 5px;
     }
 
 }
