@@ -106,6 +106,12 @@ $(document).ready(function () {
     $('.navbar-collapse').collapse('hide');
   });
   
+
+
+  $('.slick-arrow').click(function(){
+    $('.btn-more:contains("Read less")').click();
+  })
+
 });
 
 $(document).ready(function(){
