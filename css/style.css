@@ -806,7 +806,7 @@ a:hover {
         }
     
         .card-body p {
-            font-size: 13px;
+            font-size: 14px;
         }
     
     }
@@ -851,6 +851,7 @@ a:hover {
     
     .aboutus p{
         font-size: 12px;
+    
     }
     
     .aboutus img {
@@ -866,11 +867,11 @@ a:hover {
     
     
     .card-body h5 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .card-body p {
-        font-size: 15px;
+        font-size: 14px;
     }
     
       }
