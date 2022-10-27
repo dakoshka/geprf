@@ -871,7 +871,7 @@ a:hover {
     }
 
     .card-body p {
-        font-size: 12px;
+        font-size: 14px;
     }
     
       }
@@ -879,7 +879,7 @@ a:hover {
       @media (max-width: 562px) { 
 
         .card-body p {
-            font-size: 14.5px;
+            font-size: 14px;
         }
       }
 
